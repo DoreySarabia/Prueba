@@ -1,0 +1,54 @@
+.chevron {
+    height: 300px;
+    left: 0;
+    margin-top: -40px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.chevron:before, .chevron:after {
+    background: none repeat scroll 0 0 #7AA93C;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+     -ms-transform: skew(0deg,6deg);
+    -webkit-transform: skew(0deg,6deg);
+    transform: skew(0deg, 6deg);
+    width: 50%;
+}
+.chevron:after {
+    left: auto;
+    right: 0px;
+    -ms-transform: skew(0deg,-6deg);
+    -webkit-transform: skew(0deg,-6deg);
+    transform: skew(0deg, -6deg);
+    width: calc(50%);
+}
+.content {
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+.content h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    text-align:center;
+}
+.separator {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    height: 2px;
+    margin: 0 auto;
+    width: 50%;
+}
+.content p {
+    color: #6F9A37;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align:center;
+}
