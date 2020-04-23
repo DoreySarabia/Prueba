@@ -8,7 +8,7 @@
     width: 100%;
 }
 .chevron:before, .chevron:after {
-    background: none repeat scroll 0 0 #7AA93C;
+    background: none repeat scroll 0 0 blue;
     content: "";
     height: 100%;
     left: 0;
@@ -34,7 +34,7 @@
     width: 100%;
 }
 .content h1 {
-    color: #FFFFFF;
+    color: #6F9A37;
     font-size: 72px;
     text-align:center;
 }
@@ -45,7 +45,7 @@
     width: 50%;
 }
 .content p {
-    color: #6F9A37;
+    color: black;
     font-size: 18px;
     font-weight: 300;
     margin: 10px 0;
