@@ -1,8 +1,8 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* 5x4 espacios */
-    grid-template-areas: "a a b c d " "e f g g d " "e j g g h " "i j k l l";
+    /* 4x4 espacios */
+    grid-template-areas: "a a a b " "c c d d  " "c c e e  " "f g g h";
     /* establece los espacios entre filas y columnas. */
     grid-gap: 10px;
     /* Relleno */
@@ -10,69 +10,51 @@
     grid-auto-rows: minmax(140px, auto);
 }
 
+
+/* Estilos */
+
 .grid>div {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-    border-radius: 15px;
 }
 
 .item1 {
     grid-area: a;
-    background-color: seagreen;
+    background-color: red;
 }
 
 .item2 {
     grid-area: b;
-    background-color: rgb(18, 196, 196);
+    background-color: red;
 }
 
 .item3 {
     grid-area: c;
-    background-color: rgb(67, 123, 228);
+    background-color: yellow;
 }
 
 .item4 {
     grid-area: d;
-    background-color: rgb(53, 0, 151);
+    background-color: purple;
 }
 
 .item5 {
     grid-area: e;
-    background-color: rgb(8, 255, 115);
+    background-color: purple;
 }
 
 .item6 {
     grid-area: f;
-    background-color: rgb(15, 161, 81);
+    background-color: blue;
 }
 
 .item7 {
     grid-area: g;
-    background-color: rgb(104, 87, 87);
+    background-color: blue;
 }
 
 .item8 {
     grid-area: h;
-    background-color: rgb(139, 46, 116);
-}
-
-.item9 {
-    grid-area: i;
-    background-color: orange;
-}
-
-.item10 {
-    grid-area: j;
-    background-color: rgb(214, 142, 8);
-}
-
-.item11 {
-    grid-area: k;
-    background-color: rgb(250, 6, 120);
-}
-
-.item12 {
-    grid-area: l;
-    background-color: rgb(250, 16, 180);
+    background-color: blue;
 }
